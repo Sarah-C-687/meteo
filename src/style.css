@@ -5,6 +5,7 @@ body{
 a{
   color: #885df1;
 }
+
 .app{
   background: white;
   max-width: 600px;
@@ -36,6 +37,50 @@ header{
   font-weight: bold;
   font-size: 16px;
   color: #f9f7f9;
+}
+ main{
+  padding: 30px;
+ }
+.app-data{
+  display:flex;
+  justify-content: space-between;
+}
+
+.weather-city{
+  margin:0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+}
+
+.weather-details strong{
+  color: #f65282;
+}
+
+.weather-temperature-container{
+  display: flex;
+}
+
+.weather-icon{
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-temperature{
+  font-size: 88px;
+  font-weight: bold;
+   margin-left: 10px;
+}
+
+.weather-unit{
+  font-size: 28px;
+  margin-top: 16px;
 }
 
 footer{

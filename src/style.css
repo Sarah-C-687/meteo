@@ -1,6 +1,10 @@
 body{
   background-color: #f9f7f9;
 }
+
+a{
+  color: #885df1;
+}
 .app{
   background: white;
   max-width: 600px;
@@ -9,6 +13,11 @@ body{
   border-radius: 16px;
   padding: 30px;
 }
+header{
+  border-bottom: 1px solid #f9f7f9;
+  padding-bottom: 30px;
+}
+
 .search-form-input{
   background-color: #f9f7f9;
   border: none;
@@ -27,4 +36,12 @@ body{
   font-weight: bold;
   font-size: 16px;
   color: #f9f7f9;
+}
+
+footer{
+  border-top: 1px solid #f9f7f9;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6)
 }

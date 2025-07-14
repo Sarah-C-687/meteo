@@ -1,3 +1,7 @@
+function search(){
+  //handle the city search
+}
+
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");

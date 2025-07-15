@@ -30,13 +30,14 @@
       <div>
         <h1 class="weather-city" id="weather-city"></h1>
         <p class="weather-details">
-          Tuesday 14:49, scattered clouds
+          <span id="current-time"></span>, <span id="condition"></span>
           <br />
-          Humidity: <strong>66%</strong>, Wind: <strong>3,13km/h</strong>
+          Humidity: <strong><span id="humidity"></span>%</strong>, 
+          Wind: <strong><span id="wind-speed"></span> km/h</strong>
         </p>
       </div>
       <div class="weather-temperature-container">
-        <div class="weather-icon">⛅️</div>
+        <div class="weather-icon" id="weather-icon">⛅️</div>
         <div class="weather-temperature" id="temperature"></div>
         <div class="weather-unit">°C</div>
       </div>

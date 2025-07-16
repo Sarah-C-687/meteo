@@ -1,12 +1,12 @@
-body{
+body {
   background-color: #f9f7f9;
 }
 
-a{
+a {
   color: #885df1;
 }
 
-.app{
+.app {
   background: white;
   max-width: 600px;
   margin: 50px auto;
@@ -14,12 +14,12 @@ a{
   border-radius: 16px;
   padding: 30px;
 }
-header{
+header {
   border-bottom: 1px solid #f9f7f9;
   padding-bottom: 30px;
 }
 
-.search-form-input{
+.search-form-input {
   background-color: #f9f7f9;
   border: none;
   border-radius: 10px;
@@ -28,7 +28,7 @@ header{
   padding: 15px 20px;
 }
 
-.search-form-button{
+.search-form-button {
   background-color: #885df1;
   padding: 15px 20px;
   margin-left: 5px;
@@ -38,50 +38,83 @@ header{
   font-size: 16px;
   color: #f9f7f9;
 }
- main{
+ main {
   padding: 30px;
  }
-.app-data{
+.app-data {
   display:flex;
   justify-content: space-between;
 }
 
-.weather-city{
+.weather-city {
   margin:0;
   font-size: 38px;
   line-height: 48px;
 }
 
-.weather-details{
+.weather-details {
   font-size: 16px;
   line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
   font-weight: 500;
 }
 
-.weather-details strong{
+.weather-details strong {
   color: #f65282;
 }
 
-.weather-temperature-container{
+.weather-temperature-container {
   display: flex;
 }
 
-.weather-icon{
+.weather-icon {
   height: 88px;
   margin-top: 10px;
 }
 
-.weather-temperature{
+.weather-temperature {
   font-size: 88px;
   font-weight: bold;
    margin-left: 10px;
 }
 
-.weather-unit{
+.weather-unit {
   font-size: 28px;
   margin-top: 16px;
 }
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30 px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+
+}
+
+.weather-forecast-icon {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  color: #f65282;
+  padding: 0 10px;
+}
+
 
 footer{
   border-top: 1px solid #f9f7f9;

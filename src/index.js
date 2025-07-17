@@ -52,7 +52,34 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+
+function displayForecast() {
+  let days = ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml = 
+      forecastHtml +
+      `
+      <div class="weather-forecast-day">
+        <div class="weather-forecast-date">${day}</div>
+        <div class="weather-forecast-icon">⛅️</div>
+        <div class="weather-forecast-temperatures">
+          <div class="weather-forecast-temperature"><strong>19°</strong></div>
+          <div class="weather-forecast-temperature">13°</div>
+        </div>
+      </div>
+      `;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+
+}
+
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Montreal");
+displayForecast();
